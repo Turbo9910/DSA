@@ -3,9 +3,8 @@
 class Solution:
     def largestOddNumber(self, num: str) -> str:
         n = len(num) - 1
-        odd = ['1','3','5','7','9']
         while n >= 0:
-            if num[n] in odd:
+            if num[n]== '1' or num[n]=='3' or num[n]=='5' or num[n]=='7'or  num[n]=='9':
                 return num
             num = num[:-1]
             n-=1
@@ -14,4 +13,4 @@ class Solution:
       
        
        
-        
+         
