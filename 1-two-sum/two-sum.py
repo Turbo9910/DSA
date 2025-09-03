@@ -7,7 +7,3 @@ class Solution:
                 return [nums_count[needed],i]
                 
             nums_count[v] = i
-        
-        
-
-        
