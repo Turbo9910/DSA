@@ -5,9 +5,9 @@ class Solution:
             if op == 'C':
                 points.pop()
             elif op == 'D':
-                points.append(2*points[len(points)- 1])
+                points.append(2*points[- 1])
             elif op == '+':
-                s = points[len(points)-1] + points[len(points) -2]
+                s = points[-1] + points[-2]
                 points.append(s)
             else:
                 points.append(int(op))
