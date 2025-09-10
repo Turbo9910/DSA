@@ -1,11 +1,9 @@
-from typing import List
-
 class Solution:
     def maxScore(self, cardPoints: List[int], k: int) -> int:
         n = len(cardPoints)
         total_points = sum(cardPoints)
         
-        # If we take all cards
+       
         if k == n:
             return total_points
         
